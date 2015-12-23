@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>规范指南 &mdash; wechat-sdk api doc alpha 文档</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="wechat-sdk api doc alpha 文档" href="../index.html"/>
+        <link rel="next" title="待办事项" href="TODO.html"/>
+        <link rel="prev" title="关于信息" href="contribute.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> wechat-sdk api doc
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="../access_token.html">AccessToken API</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">文档</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">关于信息</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">规范指南</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">关联</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">标题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">散文</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">代码示例</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">外部链接</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">链接到“指南”中的部分</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">注意事项和警告</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#todos">TODOs</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">待办事项</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">wechat-sdk api doc</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>规范指南</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="guide-style-guide">
+<span id="id1"></span><h1>规范指南<a class="headerlink" href="#guide-style-guide" title="永久链接至标题">¶</a></h1>
+<p>As with all documentation, having a consistent formating helps make the
+document more understandable. In order to make The Guide easier to digest,
+all contributions should fit within the rules of this style guide where
+appropriate.</p>
+<p>The Guide is written as <a class="reference internal" href="documentation.html#restructuredtext-ref"><span>reStructuredText</span></a> .</p>
+<div class="admonition note">
+<p class="first admonition-title">注解</p>
+<p class="last">Parts of The Guide may not yet match this style guide. Feel free
+to update those parts to be in sync with The Guide Style Guide</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">注解</p>
+<p class="last">On any page of the rendered HTML you can click &#8220;Show Source&#8221; to
+see how authors have styled the page.</p>
+</div>
+<div class="section" id="id2">
+<h2>关联<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>Strive to keep any contributions relevant to the <a class="reference internal" href="../index.html#guide-catlog-ref"><span>链接到该文档的目录</span></a>.</p>
+<ul class="simple">
+<li>Avoid including too much information on subjects that don&#8217;t directly
+relate to Python development.</li>
+<li>Prefer to link to other sources if the information is already out there.
+Be sure to describe what and why you are linking.</li>
+<li><a class="reference external" href="http://sphinx.pocoo.org/rest.html?highlight=citations#citations">Cite</a>
+references where needed.</li>
+<li>If a subject isn&#8217;t directly relevant to Python, but useful in conjunction
+with Python (ex: Git, Github, Databases), reference by linking to useful
+resources and describe why it&#8217;s useful to Python.</li>
+<li>When in doubt, ask.</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>标题<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>Use the following styles for headings.</p>
+<p>Chapter title:</p>
+<div class="highlight-python"><div class="highlight"><pre>#########
+Chapter 1
+#########
+</pre></div>
+</div>
+<p>Page title:</p>
+<div class="highlight-python"><div class="highlight"><pre>===================
+Time is an Illusion
+===================
+</pre></div>
+</div>
+<p>Section headings:</p>
+<div class="highlight-python"><div class="highlight"><pre>Lunchtime Doubly So
+-------------------
+</pre></div>
+</div>
+<p>Sub section headings:</p>
+<div class="highlight-python"><div class="highlight"><pre>Very Deep
+~~~~~~~~~
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>散文<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<p>Wrap text lines at 78 characters. Where necessary, lines may exceed 78
+characters, especially if wrapping would make the source text more difficult
+to read.</p>
+</div>
+<div class="section" id="id5">
+<h2>代码示例<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
+<p>Wrap all code examples at 70 characters to avoid horizontal scrollbars.</p>
+<p>Command line examples:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. code-block:: console
+
+    $ run command --help
+    $ ls ..
+</pre></div>
+</div>
+<p>Be sure to include the <code class="docutils literal"><span class="pre">$</span></code> prefix before each line.</p>
+<p>Python interpreter examples:</p>
+<div class="highlight-python"><div class="highlight"><pre>Label the example::
+
+.. code-block:: python
+
+    &gt;&gt;&gt; import this
+</pre></div>
+</div>
+<p>Python examples:</p>
+<div class="highlight-python"><div class="highlight"><pre>Descriptive title::
+
+.. code-block:: python
+
+    def get_answer():
+        return 42
+</pre></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>外部链接<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p class="first">Prefer labels for well known subjects (ex: proper nouns) when linking:</p>
+<div class="highlight-python"><div class="highlight"><pre>Sphinx_ is used to document Python.
+
+.. _Sphinx: http://sphinx.pocoo.org
+</pre></div>
+</div>
+</li>
+<li><p class="first">Prefer to use descriptive labels with inline links instead of leaving bare
+links:</p>
+<div class="highlight-python"><div class="highlight"><pre>Read the `Sphinx Tutorial &lt;http://sphinx.pocoo.org/tutorial.html&gt;`_
+</pre></div>
+</div>
+</li>
+<li><p class="first">Avoid using labels such as &#8220;click here&#8221;, &#8220;this&#8221;, etc. preferring
+descriptive labels (SEO worthy) instead.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h2>链接到“指南”中的部分<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
+<p>To cross-reference other parts of this documentation, use the <a class="reference external" href="http://sphinx.pocoo.org/markup/inline.html#cross-referencing-arbitrary-locations">:ref:</a>
+keyword and labels.</p>
+<p>To make reference labels more clear and unique, always add a <code class="docutils literal"><span class="pre">-ref</span></code> suffix:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. _some-section-ref:
+
+Some Section
+------------
+</pre></div>
+</div>
+</div>
+<div class="section" id="id8">
+<h2>注意事项和警告<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
+<p>Make use of the appropriate <a class="reference external" href="http://sphinx.pocoo.org/rest.html#directives">admonitions directives</a> when making notes.</p>
+<p>Notes:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. note::
+    The Hitchhiker’s Guide to the Galaxy has a few things to say
+    on the subject of towels. A towel, it says, is about the most
+    massively useful thing an interstellar hitch hiker can have.
+</pre></div>
+</div>
+<p>Warnings:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. warning:: DON&#39;T PANIC
+</pre></div>
+</div>
+</div>
+<div class="section" id="todos">
+<h2>TODOs<a class="headerlink" href="#todos" title="永久链接至标题">¶</a></h2>
+<p>Please mark any incomplete areas of The Guide with a <a class="reference external" href="http://sphinx.pocoo.org/ext/todo.html?highlight=todo#directive-todo">todo directive</a>.</p>
+<p>To avoid cluttering the <a class="reference internal" href="contribute.html#todo-list-ref"><span>待办事项列表</span></a>, use a single <code class="docutils literal"><span class="pre">todo</span></code> for stub
+documents or large incomplete sections.</p>
+<div class="highlight-python"><div class="highlight"><pre>.. todo::
+    Learn the Ultimate Answer to the Ultimate Question
+    of Life, The Universe, and Everything
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="TODO.html" class="btn btn-neutral float-right" title="待办事项" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="contribute.html" class="btn btn-neutral" title="关于信息" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; 版权所有 2015, Larry.Koo.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'alpha',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
