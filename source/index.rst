@@ -3,7 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-wechat-sdk api doc
+==============================================
+微信公众平台JAVA SDK Kit Guide
 ==============================================
 
 写在前面的话：
