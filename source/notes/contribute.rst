@@ -17,7 +17,9 @@ For all contributions, please follow the :ref:`guide-style-guide`.
 
 If you'd like to contribute, there's plenty to do. Here's a short todo_ list.
 
-    .. include:: TODO.rst
+* Establish "use this" vs "alternatives are...." recommendations
+
+.. todolist::
 
 
-.. _todo: https://github.com/kennethreitz/python-guide/blob/master/TODO.rst
+.. _todo: https://github.com/gumutianqi/weixin-sdk-doc/blob/master/source/notes/TODO.rst

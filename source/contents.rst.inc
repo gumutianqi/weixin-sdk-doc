@@ -22,12 +22,3 @@
     notes/documentation
     notes/contribute
     notes/styleguide
-
---------------------------------------
-
-待办事项
-
-.. toctree::
-    :maxdepth: 1
-
-    notes/TODO
