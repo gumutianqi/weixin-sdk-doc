@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = '微信公众平台JAVA SDK Kit Guide'
+project = 'WeChat JAVA SDK Kit Guide'
 copyright = '2015, Larry.Koo'
 author = 'Larry.Koo'
 
@@ -232,7 +232,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'wechat-sdkapidoc.tex', '微信公众平台JAVA SDK Kit Guide',
+  (master_doc, 'wechat-sdkapidoc.tex', 'WeChat JAVA SDK Kit Guide',
    'Larry.Koo', 'manual'),
 ]
 
@@ -262,7 +262,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wechat-sdkapidoc', '微信公众平台JAVA SDK Kit Guide',
+    (master_doc, 'wechat-sdkapidoc', 'WeChat JAVA SDK Kit Guide',
      [author], 1)
 ]
 
@@ -276,7 +276,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'wechat-sdkapidoc', 'wechat-sdk api doc Documentation', '微信公众平台JAVA SDK Kit Guide',
+  (master_doc, 'wechat-sdkapidoc', 'wechat-sdk api doc Documentation', 'WeChat JAVA SDK Kit Guide',
    author, 'wechat-sdkapidoc', 'One line description of project.', 'jfinal-weixin-sdk 是基于 JFinal-weixin 的微信公众号极速开发 SDK，不依赖Web的SDK Kit，支持搭建多帐号系统，可在任何环境下使用',
    'Miscellaneous'),
 ]
