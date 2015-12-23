@@ -1,0 +1,20 @@
+## ignore_global
+*~
+.DS_Store
+.desktop.ini
+.settings
+dependency-reduced-pom.xml
+target
+classes
+bin
+build
+logs
+*.class
+*.iml
+*.swp
+.idea
+
+## Package Files #
+*.jar
+*.war
+*.ear
